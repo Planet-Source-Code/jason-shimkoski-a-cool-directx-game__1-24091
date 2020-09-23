@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=Mr Eat Gum Guy 2
+
+[Package|Mr Eat Gum Guy 2|Package]
+PackageFolder=D:\Jason\Visual Basic\Games\Mr. Eat Gum Guy 2\Package
+ProjectFolder=D:\Jason\Visual Basic\Games\Mr. Eat Gum Guy 2
+ServerSideCab=
+File1=D:\Jason\Visual Basic\Games\Mr. Eat Gum Guy 2\Package\setup.exe
+File2=D:\Jason\Visual Basic\Games\Mr. Eat Gum Guy 2\Package\Setup.Lst
+File3=D:\Jason\Visual Basic\Games\Mr. Eat Gum Guy 2\Package\Mr Eat Gum Guy 2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Mr Eat Gum Guy 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Jason\Visual Basic\Games\Mr. Eat Gum Guy 2\Package
+
+[Package|Mr Eat Gum Guy 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Mr Eat Gum Guy 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Mr Eat Gum Guy 2|Files Found]
+
+[Package|Mr Eat Gum Guy 2|Files Released]
+
+[Package|Mr Eat Gum Guy 2|Missing Dependency Information]
+D:\WINNT\system32\dx7vb.dll=
+
+[Package|Mr Eat Gum Guy 2|Out-of-Date Dependency Information]
+
+[Package|Mr Eat Gum Guy 2|Files Added]
+
+[Package|Mr Eat Gum Guy 2|Files Removed]
+
+[Package|Mr Eat Gum Guy 2|Files In Project]
+D:\Jason\Visual Basic\Games\Mr. Eat Gum Guy 2\Mr Eat Gum Guy 2.exe=Yes
+D:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\WINNT\system32\OLEAUT32.DLL=Yes
+D:\WINNT\system32\OLEPRO32.DLL=Yes
+D:\WINNT\system32\ASYCFILT.DLL=Yes
+D:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\dx7vb.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Mr Eat Gum Guy 2|Configure Registry Files]
+Applicable=No
+
+[Package|Mr Eat Gum Guy 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Mr Eat Gum Guy 2|Install Locations]
+D:\Jason\Visual Basic\Games\Mr. Eat Gum Guy 2\Mr Eat Gum Guy 2.exe=$(AppPath)
+D:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\dx7vb.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Mr Eat Gum Guy 2|Configure Shared Files]
+Applicable=Yes
+D:\Jason\Visual Basic\Games\Mr. Eat Gum Guy 2\Mr Eat Gum Guy 2.exe=No
+
+[Package|Mr Eat Gum Guy 2|Distribution]
+Type=single
+Size=
+Title=Mr. Eat Gum Guy 2
+
+[Package|Mr Eat Gum Guy 2|IconGroups]
+Group0=Mr. Eat Gum Guy 2
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Mr Eat Gum Guy 2|Mr. Eat Gum Guy 2]
+Icon1="Mr Eat Gum Guy 2.EXE"
+Title1=Mr. Eat Gum Guy 2
+StartIn1=$(AppPath)
+Key1=Icon1
